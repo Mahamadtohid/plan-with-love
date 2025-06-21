@@ -28,7 +28,7 @@ function Card({id , name , info , imageUrl , price, removeCard}){
             </div>
 
 
-            <button className="btn-red bg-black text-white" onClick={() => removeCard(id)}>
+            <button className="btn-red" onClick={() => removeCard(id)}>
                 Not Interested
             </button>
 
